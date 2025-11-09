@@ -1,0 +1,268 @@
+                    <!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>My College</title>
+                        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+                        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+                    </head>
+                    <body>
+                        <!-- Navigation -->
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+                            <div class="container">
+                                <a class="navbar-brand fw-bold fs-3" href="#"><i class="fas fa-graduation-cap me-2"></i>My College</a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav ms-auto">
+                                        <li class="nav-item"><a class="nav-link" href="#vision">Vision</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#pso">PSOs</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#recruiters">Recruiters</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+
+                        <!-- Hero Section -->
+                        <section class="bg-primary text-white py-5 text-center">
+                            <div class="container">
+                                <h1 class="display-5">Welcome to My College</h1>
+                                <p class="lead">Empowering minds, Building futures</p>
+                            </div>
+                        </section>
+
+                        <!-- Vision Section -->
+                        <section id="vision" class="py-5 bg-light">
+                            <div class="container">
+                                <div class="text-center mb-5">
+                                    <h2 class="fw-bold">Vision</h2>
+                                    <hr class="mx-auto" style="width:80px; height:3px; background:#0d6efd; opacity:1;">
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <p class="fs-5 text-center">To provide quality technical education through research, innovation and to prepare professionally superior and ethically strong engineers.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Mission Section -->
+                        <section id="mission" class="py-5">
+                            <div class="container">
+                                <div class="text-center mb-5">
+                                    <h2 class="fw-bold">Mission</h2>
+                                    <hr class="mx-auto" style="width:80px; height:3px; background:#0d6efd; opacity:1;">
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <ul class="list-group list-group-flush fs-5">
+                                            <li class="list-group-item">Provide ICT enabled teaching and learning environment.</li>
+                                            <li class="list-group-item">Enable students to become digital age literate and global citizens.</li>
+                                            <li class="list-group-item">Sustain partnerships between educational and industrial enterprises.</li>
+                                            <li class="list-group-item">Prepare graduates for lifelong learning and ethical challenges.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Program Specific Outcomes Section -->
+                        <section id="pso" class="py-5 bg-light">
+                            <div class="container">
+                                <div class="text-center mb-5">
+                                    <h2 class="fw-bold">Program Specific Outcomes (PSOs)</h2>
+                                    <hr class="mx-auto" style="width:80px; height:3px; background:#0d6efd; opacity:1;">
+                                </div>
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-10">
+                                        <div class="card shadow-sm">
+                                            <div class="card-body">
+                                                <ul class="list-group list-group-flush fs-5">
+                                                    <li class="list-group-item"><strong>PSO1:</strong> Demonstrate skills and competency in the analysis, design and development of computer-based systems addressing industrial and social issues.</li>
+                                                    <li class="list-group-item"><strong>PSO2:</strong> Apply future technological challenges in areas like security, AI, IoT etc.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Courses Offered Section -->
+                        <section id="courses" class="py-5">
+                            <div class="container">
+                                <div class="text-center mb-5">
+                                    <h2 class="fw-bold">Courses Offered</h2>
+                                    <hr class="mx-auto" style="width:80px; height:3px; background:#0d6efd; opacity:1;">
+                                </div>
+                                <div class="row g-4">
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card h-100 text-center shadow-sm border-0">
+                                            <div class="card-body">
+                                                <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+                                                <h4 class="fw-bold">B.Tech - CSE</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card h-100 text-center shadow-sm border-0">
+                                            <div class="card-body">
+                                                <i class="fas fa-robot fa-3x text-primary mb-3"></i>
+                                                <h4 class="fw-bold">B.Tech - AI/ML</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card h-100 text-center shadow-sm border-0">
+                                            <div class="card-body">
+                                                <i class="fas fa-shield-alt fa-3x text-primary mb-3"></i>
+                                                <h4 class="fw-bold">M.Tech - Cyber Security</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card h-100 text-center shadow-sm border-0">
+                                            <div class="card-body">
+                                                <i class="fas fa-microchip fa-3x text-primary mb-3"></i>
+                                                <h4 class="fw-bold">PhD - Computer Engineering</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                       <!-- Image Gallery Section -->
+<section id="gallery" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Image Gallery of Events</h2>
+      <hr class="mx-auto" style="width:80px; height:3px; background:#0d6efd; opacity:1;">
+      <p class="text-muted">A glimpse of the vibrant activities and events organized at our college.</p>
+    </div>
+
+    <div class="row g-4">
+      
+      <!-- Event 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="https://plus.unsplash.com/premium_photo-1683121680448-ef3047b9351a?fm=jpg&q=80&w=800"
+               class="card-img-top" alt="Student Seminar"
+               style="height:250px; object-fit:cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Student Seminar</h5>
+            <p class="card-text text-muted">Interactive session with innovative student presentations.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?fm=jpg&q=80&w=800"
+               class="card-img-top" alt="College Festival"
+               style="height:250px; object-fit:cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">College Festival</h5>
+            <p class="card-text text-muted">Annual fest celebrating culture, creativity, and talent.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?fm=jpg&q=80&w=800"
+               class="card-img-top" alt="Workshop Event"
+               style="height:250px; object-fit:cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Technical Workshop</h5>
+            <p class="card-text text-muted">Hands-on learning experience with industry professionals.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event 4 -->
+      <div class="col-lg-6 col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="https://plus.unsplash.com/premium_photo-1682125090365-58de6dbf8143?fm=jpg&q=80&w=800"
+               class="card-img-top" alt="Tech Expo"
+               style="height:250px; object-fit:cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Tech Expo</h5>
+            <p class="card-text text-muted">Students showcase innovative projects and prototypes.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event 5 -->
+      <div class="col-lg-6 col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?fm=jpg&q=80&w=800"
+               class="card-img-top" alt="Cultural Night"
+               style="height:250px; object-fit:cover;">
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Cultural Night</h5>
+            <p class="card-text text-muted">An evening of music, dance, and artistic performances.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+                        <!-- Top Recruiters Section -->
+                        <section id="recruiters" class="py-5">
+                            <div class="container">
+                                <div class="text-center mb-5">
+                                    <h2 class="fw-bold">Top Recruiters</h2>
+                                    <hr class="mx-auto" style="width:80px; height:3px; background:#0d6efd; opacity:1;">
+                                </div>
+                                <div class="row g-4">
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card h-100 text-center shadow-sm border-0 bg-light d-flex align-items-center justify-content-center" style="height:200px;">
+                                            <img src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png" alt="Google" class="img-fluid" style="max-width: 80%; max-height: 150px; object-fit: contain;">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card h-100 text-center shadow-sm border-0 bg-light d-flex align-items-center justify-content-center" style="height:200px;">
+                                            <img src="https://tse3.mm.bing.net/th/id/OIP.QDlNT-wnMwL8lpzv3dqpHQHaCr?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Adani" class="img-fluid" style="max-width: 80%; max-height: 150px; object-fit: contain;">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card h-100 text-center shadow-sm border-0 bg-light d-flex align-items-center justify-content-center" style="height:200px;">
+                                            <img src="https://th.bing.com/th/id/OIP.ckaHsUxZQgfH2SNa6C3omAAAAA?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Wipro" class="img-fluid" style="max-width: 80%; max-height: 150px; object-fit: contain;">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="card h-100 text-center shadow-sm border-0 bg-light d-flex align-items-center justify-content-center" style="height:200px;">
+                                            <img src="https://logos-world.net/wp-content/uploads/2020/09/Microsoft-Logo.png" alt="Microsoft" class="img-fluid" style="max-width: 80%; max-height: 150px; object-fit: contain;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Footer -->
+                        <footer class="bg-dark text-white py-4 mt-5">
+                            <div class="container text-center">
+                                <p class="mb-0">&copy; 2025 My College. All rights reserved.</p>
+                                <p class="mt-2">
+                                    <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+                                    <a href="#" class="text-white me-3"><i class="fab fa-linkedin"></i></a>
+                                    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                                </p>
+                            </div>
+                        </footer>
+
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+                    </body>
+                    </html>
+
